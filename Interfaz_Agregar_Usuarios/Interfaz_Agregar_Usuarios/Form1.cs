@@ -16,5 +16,7 @@ namespace Interfaz_Agregar_Usuarios
         {
             InitializeComponent();
         }
+
+        
     }
 }
