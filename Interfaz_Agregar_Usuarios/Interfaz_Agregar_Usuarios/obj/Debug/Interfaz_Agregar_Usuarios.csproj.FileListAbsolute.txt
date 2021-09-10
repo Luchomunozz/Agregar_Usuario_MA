@@ -1,0 +1,10 @@
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe.config
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.pdb
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.AssemblyReference.cache
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Properties.Resources.resources
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Registro.resources
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.GenerateResource.cache
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.CoreCompileInputs.cache
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
+C:\Users\lucho\Desktop\Agregar Usuario Interfaz\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb
