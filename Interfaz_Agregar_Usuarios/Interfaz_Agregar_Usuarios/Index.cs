@@ -16,5 +16,13 @@ namespace Interfaz_Agregar_Usuarios
         {
             InitializeComponent();
         }
+
+        private void Index_Load(object sender, EventArgs e)
+        {
+            this.dataGridView7.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+            dataGridView7.AutoResizeRows();
+            dataGridView7.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            
+        }
     }
 }
