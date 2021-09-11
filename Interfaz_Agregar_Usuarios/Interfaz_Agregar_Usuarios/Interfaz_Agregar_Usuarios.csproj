@@ -52,18 +52,6 @@
     <Compile Include="Agregar Productos.Designer.cs">
       <DependentUpon>Agregar Productos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Index.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Index.Designer.cs">
-      <DependentUpon>Index.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InicioSesion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InicioSesion.Designer.cs">
-      <DependentUpon>InicioSesion.cs</DependentUpon>
-    </Compile>
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,12 +62,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Agregar Productos.resx">
       <DependentUpon>Agregar Productos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Index.resx">
-      <DependentUpon>Index.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InicioSesion.resx">
-      <DependentUpon>InicioSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
