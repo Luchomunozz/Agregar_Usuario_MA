@@ -1,6 +1,7 @@
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe.config
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.pdb
+C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Index.resources
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.InicioSesion.resources
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Properties.Resources.resources
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.GenerateResource.cache
@@ -8,4 +9,3 @@ C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CA
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.AssemblyReference.cache
-C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Index.resources
