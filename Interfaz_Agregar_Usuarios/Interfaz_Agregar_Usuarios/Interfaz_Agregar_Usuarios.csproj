@@ -52,6 +52,7 @@
     <Compile Include="AgregarProductos.Designer.cs">
       <DependentUpon>AgregarProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="CGlobal.cs" />
     <Compile Include="InicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +74,7 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Validaciones.cs" />
     <EmbeddedResource Include="AgregarProductos.resx">
       <DependentUpon>AgregarProductos.cs</DependentUpon>
     </EmbeddedResource>

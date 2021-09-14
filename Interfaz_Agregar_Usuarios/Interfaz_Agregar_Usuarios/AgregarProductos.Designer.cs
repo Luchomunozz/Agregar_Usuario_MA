@@ -40,7 +40,7 @@ namespace Interfaz_Agregar_Usuarios
             this.btn_descripcion = new System.Windows.Forms.TextBox();
             this.btn_precio = new System.Windows.Forms.TextBox();
             this.btn_nombre = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.img_producto = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -55,8 +55,9 @@ namespace Interfaz_Agregar_Usuarios
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.abrir_imagen = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.cantidad)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_producto)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -80,7 +81,7 @@ namespace Interfaz_Agregar_Usuarios
             this.agregar_img.Size = new System.Drawing.Size(239, 16);
             this.agregar_img.TabIndex = 46;
             this.agregar_img.Text = "+ Agregar una imagen del producto ";
-            this.agregar_img.Visible = false;
+            this.agregar_img.Click += new System.EventHandler(this.agregar_img_Click);
             // 
             // btn_agregar
             // 
@@ -105,7 +106,6 @@ namespace Interfaz_Agregar_Usuarios
             this.label5.Size = new System.Drawing.Size(142, 16);
             this.label5.TabIndex = 44;
             this.label5.Text = "Nombre del producto";
-            this.label5.Visible = false;
             // 
             // label4
             // 
@@ -117,7 +117,6 @@ namespace Interfaz_Agregar_Usuarios
             this.label4.Size = new System.Drawing.Size(49, 16);
             this.label4.TabIndex = 43;
             this.label4.Text = "Precio";
-            this.label4.Visible = false;
             // 
             // label2
             // 
@@ -129,7 +128,6 @@ namespace Interfaz_Agregar_Usuarios
             this.label2.Size = new System.Drawing.Size(166, 16);
             this.label2.TabIndex = 42;
             this.label2.Text = "Descripción del producto";
-            this.label2.Visible = false;
             // 
             // label3
             // 
@@ -141,7 +139,7 @@ namespace Interfaz_Agregar_Usuarios
             this.label3.Size = new System.Drawing.Size(65, 16);
             this.label3.TabIndex = 41;
             this.label3.Text = "Cantidad";
-            this.label3.Visible = false;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // cantidad
             // 
@@ -177,14 +175,14 @@ namespace Interfaz_Agregar_Usuarios
             this.btn_nombre.Size = new System.Drawing.Size(285, 33);
             this.btn_nombre.TabIndex = 37;
             // 
-            // pictureBox3
+            // img_producto
             // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Location = new System.Drawing.Point(96, 184);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(347, 301);
-            this.pictureBox3.TabIndex = 36;
-            this.pictureBox3.TabStop = false;
+            this.img_producto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.img_producto.Location = new System.Drawing.Point(96, 184);
+            this.img_producto.Name = "img_producto";
+            this.img_producto.Size = new System.Drawing.Size(347, 301);
+            this.img_producto.TabIndex = 36;
+            this.img_producto.TabStop = false;
             // 
             // panel1
             // 
@@ -343,6 +341,10 @@ namespace Interfaz_Agregar_Usuarios
             this.textBox8.TabIndex = 0;
             this.textBox8.Text = "Copyright © 2021 - Aplicación Web Realizada por el Grupo NUMI\r\n";
             // 
+            // abrir_imagen
+            // 
+            this.abrir_imagen.FileName = "openFileDialog1";
+            // 
             // AgregarProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -360,13 +362,13 @@ namespace Interfaz_Agregar_Usuarios
             this.Controls.Add(this.btn_descripcion);
             this.Controls.Add(this.btn_precio);
             this.Controls.Add(this.btn_nombre);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.img_producto);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Name = "AgregarProductos";
             this.Text = "Agregar_productos";
             ((System.ComponentModel.ISupportInitialize)(this.cantidad)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_producto)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -397,7 +399,7 @@ namespace Interfaz_Agregar_Usuarios
         private System.Windows.Forms.TextBox btn_descripcion;
         private System.Windows.Forms.TextBox btn_precio;
         private System.Windows.Forms.TextBox btn_nombre;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox img_producto;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -412,5 +414,6 @@ namespace Interfaz_Agregar_Usuarios
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.OpenFileDialog abrir_imagen;
     }
 }

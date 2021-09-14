@@ -12,6 +12,8 @@ namespace Interfaz_Agregar_Usuarios
 {
     public partial class AgregarProductos : Form
     {
+        Productos productos = new Productos();
+
         public AgregarProductos()
         {
             InitializeComponent();
@@ -19,9 +21,39 @@ namespace Interfaz_Agregar_Usuarios
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
-            Productos productos = new Productos();
 
             productos.AgregarProducto(btn_nombre.Text, Convert.ToInt32(btn_precio.Text), btn_descripcion.Text, Convert.ToInt32(cantidad.Value));
+
+            CGlobal.productos.Add(productos);
+
+            btn_nombre.Clear();
+            btn_precio.Clear();
+            btn_descripcion.Clear();
+            cantidad.Value = 1;
+        }
+
+        private void agregar_img_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (abrir_imagen.ShowDialog() == DialogResult.OK)
+                {
+                    string imagen = abrir_imagen.FileName;
+                    img_producto.Image = Image.FromFile(imagen);
+                    productos.AgregarImagen(imagen);
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("El archivo seleccionado no es un tipo de imagen válido");
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            foreach (Productos i in CGlobal.productos) {
+                MessageBox.Show(i + " " );
+            }
         }
     }
 }

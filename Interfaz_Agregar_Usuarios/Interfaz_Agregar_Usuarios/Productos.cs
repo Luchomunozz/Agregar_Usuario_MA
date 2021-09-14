@@ -19,8 +19,12 @@ namespace Interfaz_Agregar_Usuarios
             nombre = _nombre;
             precio = _precio;
             descripcion = _descripcion;
-            cantidad = _cantidad;
-           
+            cantidad = _cantidad;     
+        }
+
+        public void AgregarImagen(string _img_producto)
+        {
+            img_producto = _img_producto;
         }
 
     }
