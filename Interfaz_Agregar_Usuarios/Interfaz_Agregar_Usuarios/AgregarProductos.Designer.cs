@@ -30,16 +30,16 @@ namespace Interfaz_Agregar_Usuarios
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgregarProductos));
-            this.label6 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.agregar_img = new System.Windows.Forms.Label();
+            this.btn_agregar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cantidad = new System.Windows.Forms.NumericUpDown();
+            this.btn_descripcion = new System.Windows.Forms.TextBox();
+            this.btn_precio = new System.Windows.Forms.TextBox();
+            this.btn_nombre = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -55,7 +55,7 @@ namespace Interfaz_Agregar_Usuarios
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -70,29 +70,30 @@ namespace Interfaz_Agregar_Usuarios
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label6
+            // agregar_img
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(148, 328);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(239, 16);
-            this.label6.TabIndex = 46;
-            this.label6.Text = "+ Agregar una imagen del producto ";
-            this.label6.Visible = false;
+            this.agregar_img.AutoSize = true;
+            this.agregar_img.BackColor = System.Drawing.Color.Transparent;
+            this.agregar_img.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agregar_img.Location = new System.Drawing.Point(148, 328);
+            this.agregar_img.Name = "agregar_img";
+            this.agregar_img.Size = new System.Drawing.Size(239, 16);
+            this.agregar_img.TabIndex = 46;
+            this.agregar_img.Text = "+ Agregar una imagen del producto ";
+            this.agregar_img.Visible = false;
             // 
-            // button2
+            // btn_agregar
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(491, 551);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 48);
-            this.button2.TabIndex = 45;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_agregar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_agregar.Location = new System.Drawing.Point(491, 551);
+            this.btn_agregar.Name = "btn_agregar";
+            this.btn_agregar.Size = new System.Drawing.Size(127, 48);
+            this.btn_agregar.TabIndex = 45;
+            this.btn_agregar.Text = "Agregar";
+            this.btn_agregar.UseVisualStyleBackColor = false;
+            this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
             // label5
             // 
@@ -142,39 +143,39 @@ namespace Interfaz_Agregar_Usuarios
             this.label3.Text = "Cantidad";
             this.label3.Visible = false;
             // 
-            // numericUpDown1
+            // cantidad
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(673, 477);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(58, 20);
-            this.numericUpDown1.TabIndex = 40;
+            this.cantidad.Location = new System.Drawing.Point(673, 477);
+            this.cantidad.Name = "cantidad";
+            this.cantidad.Size = new System.Drawing.Size(58, 20);
+            this.cantidad.TabIndex = 40;
             // 
-            // textBox3
+            // btn_descripcion
             // 
-            this.textBox3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(581, 347);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(285, 103);
-            this.textBox3.TabIndex = 39;
+            this.btn_descripcion.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_descripcion.Location = new System.Drawing.Point(581, 347);
+            this.btn_descripcion.Multiline = true;
+            this.btn_descripcion.Name = "btn_descripcion";
+            this.btn_descripcion.Size = new System.Drawing.Size(285, 103);
+            this.btn_descripcion.TabIndex = 39;
             // 
-            // textBox2
+            // btn_precio
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(581, 272);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(285, 33);
-            this.textBox2.TabIndex = 38;
+            this.btn_precio.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_precio.Location = new System.Drawing.Point(581, 272);
+            this.btn_precio.Multiline = true;
+            this.btn_precio.Name = "btn_precio";
+            this.btn_precio.Size = new System.Drawing.Size(285, 33);
+            this.btn_precio.TabIndex = 38;
             // 
-            // textBox1
+            // btn_nombre
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(581, 206);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(285, 33);
-            this.textBox1.TabIndex = 37;
+            this.btn_nombre.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_nombre.Location = new System.Drawing.Point(581, 206);
+            this.btn_nombre.Multiline = true;
+            this.btn_nombre.Name = "btn_nombre";
+            this.btn_nombre.Size = new System.Drawing.Size(285, 33);
+            this.btn_nombre.TabIndex = 37;
             // 
             // pictureBox3
             // 
@@ -349,22 +350,22 @@ namespace Interfaz_Agregar_Usuarios
             this.ClientSize = new System.Drawing.Size(960, 737);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.agregar_img);
+            this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cantidad);
+            this.Controls.Add(this.btn_descripcion);
+            this.Controls.Add(this.btn_precio);
+            this.Controls.Add(this.btn_nombre);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Name = "AgregarProductos";
             this.Text = "Agregar_productos";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cantidad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -386,16 +387,16 @@ namespace Interfaz_Agregar_Usuarios
 
         #endregion
 
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label agregar_img;
+        private System.Windows.Forms.Button btn_agregar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.NumericUpDown cantidad;
+        private System.Windows.Forms.TextBox btn_descripcion;
+        private System.Windows.Forms.TextBox btn_precio;
+        private System.Windows.Forms.TextBox btn_nombre;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBox1;

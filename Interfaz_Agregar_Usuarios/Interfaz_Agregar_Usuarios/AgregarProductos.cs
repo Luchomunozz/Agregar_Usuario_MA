@@ -16,5 +16,12 @@ namespace Interfaz_Agregar_Usuarios
         {
             InitializeComponent();
         }
+
+        private void btn_agregar_Click(object sender, EventArgs e)
+        {
+            Productos productos = new Productos();
+
+            productos.AgregarProducto(btn_nombre.Text, Convert.ToInt32(btn_precio.Text), btn_descripcion.Text, Convert.ToInt32(cantidad.Value));
+        }
     }
 }
