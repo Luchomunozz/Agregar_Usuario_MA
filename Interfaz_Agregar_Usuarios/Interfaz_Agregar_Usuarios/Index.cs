@@ -24,5 +24,12 @@ namespace Interfaz_Agregar_Usuarios
             dataGridView7.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             
         }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            AgregarProductos ag_productos = new AgregarProductos();
+
+            ag_productos.Show();          
+        }
     }
 }
