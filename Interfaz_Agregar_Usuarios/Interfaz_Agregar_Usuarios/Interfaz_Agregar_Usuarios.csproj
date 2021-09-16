@@ -53,6 +53,7 @@
       <DependentUpon>AgregarProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="CGlobal.cs" />
+    <Compile Include="C_usuario.cs" />
     <Compile Include="InicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
