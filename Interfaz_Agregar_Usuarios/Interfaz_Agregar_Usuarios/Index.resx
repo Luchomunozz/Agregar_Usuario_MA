@@ -2524,6 +2524,16 @@
   <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="Column7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        dQAADnUBuWNRMgAAANJJREFUOE/d0L0KwWEUx/GHUBaL3cAkRu7AbrPYyOZlNxnkprgBpZgoo7zESkSK
+        7+/feSS5AU59Os6bHtx/RAJVjLDH1fIQ6mv+NUqY4YEDBmhYVq2+5tp7RQh1nOAPC4giZbkI/wVH1KC7
+        4MMNGkgfEUysnlqtvt/Rvu7czhqenpr+6GWg/ntPd66FuzWkhxgWVs+hp6vvd7SvOxdGBxdosEEOcWQt
+        57GF5me0obsg9OPLWEILK3RRsbyG+pprL/izPiOJJsbwL1FWrb7mvx3OPQFll0hQpXFR9QAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
   <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

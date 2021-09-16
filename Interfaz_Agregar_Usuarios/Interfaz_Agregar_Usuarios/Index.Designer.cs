@@ -441,13 +441,13 @@ namespace Interfaz_Agregar_Usuarios
             this.dataGridView7.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(42)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView7.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView7.ColumnHeadersHeight = 30;
+            this.dataGridView7.ColumnHeadersHeight = 35;
             this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView7.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -462,6 +462,7 @@ namespace Interfaz_Agregar_Usuarios
             this.dataGridView7.GridColor = System.Drawing.Color.Black;
             this.dataGridView7.Location = new System.Drawing.Point(132, 172);
             this.dataGridView7.Name = "dataGridView7";
+            this.dataGridView7.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView7.Size = new System.Drawing.Size(1084, 345);
             this.dataGridView7.TabIndex = 74;
             // 
@@ -481,7 +482,7 @@ namespace Interfaz_Agregar_Usuarios
             // 
             this.Column2.HeaderText = "Descripción";
             this.Column2.Name = "Column2";
-            this.Column2.Width = 350;
+            this.Column2.Width = 325;
             // 
             // Column3
             // 
@@ -498,11 +499,11 @@ namespace Interfaz_Agregar_Usuarios
             // 
             this.Column6.HeaderText = "Cantidad";
             this.Column6.Name = "Column6";
-            this.Column6.Width = 75;
             // 
             // Column7
             // 
             this.Column7.HeaderText = "Ver";
+            this.Column7.Image = ((System.Drawing.Image)(resources.GetObject("Column7.Image")));
             this.Column7.Name = "Column7";
             this.Column7.Width = 50;
             // 
