@@ -9,3 +9,14 @@ C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CA
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb
 C:\Users\USUARIO WINDOWS\OneDrive - misena.edu.co\Escritorio\SENA\Trimestre 3\CARLOS\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.AssemblyReference.cache
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe.config
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.pdb
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.AssemblyReference.cache
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Index.resources
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.InicioSesion.resources
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Properties.Resources.resources
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.GenerateResource.cache
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb
