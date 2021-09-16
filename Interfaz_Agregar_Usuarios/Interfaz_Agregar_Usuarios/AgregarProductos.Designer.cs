@@ -56,6 +56,8 @@ namespace Interfaz_Agregar_Usuarios
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.abrir_imagen = new System.Windows.Forms.OpenFileDialog();
+            this.p_disponible = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_producto)).BeginInit();
             this.panel1.SuspendLayout();
@@ -308,6 +310,7 @@ namespace Interfaz_Agregar_Usuarios
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 35;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox2
             // 
@@ -345,11 +348,33 @@ namespace Interfaz_Agregar_Usuarios
             // 
             this.abrir_imagen.FileName = "openFileDialog1";
             // 
+            // p_disponible
+            // 
+            this.p_disponible.AutoSize = true;
+            this.p_disponible.Location = new System.Drawing.Point(861, 479);
+            this.p_disponible.Name = "p_disponible";
+            this.p_disponible.Size = new System.Drawing.Size(15, 14);
+            this.p_disponible.TabIndex = 54;
+            this.p_disponible.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(757, 477);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(99, 16);
+            this.label6.TabIndex = 53;
+            this.label6.Text = "Disponibilidad";
+            // 
             // AgregarProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 737);
+            this.Controls.Add(this.p_disponible);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.agregar_img);
@@ -415,5 +440,7 @@ namespace Interfaz_Agregar_Usuarios
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.OpenFileDialog abrir_imagen;
+        private System.Windows.Forms.CheckBox p_disponible;
+        private System.Windows.Forms.Label label6;
     }
 }

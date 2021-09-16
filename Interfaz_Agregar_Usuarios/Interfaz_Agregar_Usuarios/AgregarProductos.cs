@@ -22,7 +22,16 @@ namespace Interfaz_Agregar_Usuarios
         private void btn_agregar_Click(object sender, EventArgs e)
         {
 
-            productos.AgregarProducto(btn_nombre.Text, Convert.ToInt32(btn_precio.Text), btn_descripcion.Text, Convert.ToInt32(cantidad.Value));
+            bool disponible;
+            if (p_disponible.Checked)
+            {
+                disponible = true;
+            }
+            else
+            {
+                disponible = false;
+            }
+            productos.AgregarProducto(btn_nombre.Text, Convert.ToInt32(btn_precio.Text), btn_descripcion.Text, Convert.ToInt32(cantidad.Value), disponible);
 
             CGlobal.productos.Add(productos);
 
@@ -54,6 +63,12 @@ namespace Interfaz_Agregar_Usuarios
             foreach (Productos i in CGlobal.productos) {
                 MessageBox.Show(i + " " );
             }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Show();
+           
         }
     }
 }
