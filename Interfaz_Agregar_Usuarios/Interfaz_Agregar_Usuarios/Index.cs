@@ -75,7 +75,15 @@ namespace Interfaz_Agregar_Usuarios
                 producto.nombreEmprendimiento = Convert.ToString(tablaProductos.CurrentRow.Cells[1].Value);
                 producto.descripcion = Convert.ToString(tablaProductos.CurrentRow.Cells[2].Value);
                 producto.precio = Convert.ToDecimal(tablaProductos.CurrentRow.Cells[3].Value);
-                producto.estado = Convert.ToBoolean(tablaProductos.CurrentRow.Cells[4].Value);
+                if (producto.estado == true)
+                {
+
+                    tablaProductos.CurrentRow.Cells[4].Value = "Disponible";
+                }
+                else
+                {
+                    tablaProductos.CurrentRow.Cells[4].Value = "Agotado";
+                }
                 producto.cantidad = Convert.ToInt32(tablaProductos.CurrentRow.Cells[5].Value);
                 producto.img_producto = Convert.ToString(tablaProductos.CurrentRow.Cells[7].Value);
 
