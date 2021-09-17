@@ -16,7 +16,7 @@ namespace Interfaz_Agregar_Usuarios
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Vista());
+            Application.Run(new AgregarProductos());
         }
     }
 }

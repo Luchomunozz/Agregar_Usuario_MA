@@ -58,6 +58,9 @@ namespace Interfaz_Agregar_Usuarios
             this.abrir_imagen = new System.Windows.Forms.OpenFileDialog();
             this.p_disponible = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.btn_nombreEmpr = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.t_mensaje = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_producto)).BeginInit();
             this.panel1.SuspendLayout();
@@ -179,6 +182,7 @@ namespace Interfaz_Agregar_Usuarios
             // 
             // img_producto
             // 
+            this.img_producto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.img_producto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.img_producto.Location = new System.Drawing.Point(96, 184);
             this.img_producto.Name = "img_producto";
@@ -368,11 +372,42 @@ namespace Interfaz_Agregar_Usuarios
             this.label6.TabIndex = 53;
             this.label6.Text = "Disponibilidad";
             // 
+            // btn_nombreEmpr
+            // 
+            this.btn_nombreEmpr.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_nombreEmpr.Location = new System.Drawing.Point(581, 138);
+            this.btn_nombreEmpr.Multiline = true;
+            this.btn_nombreEmpr.Name = "btn_nombreEmpr";
+            this.btn_nombreEmpr.Size = new System.Drawing.Size(285, 33);
+            this.btn_nombreEmpr.TabIndex = 55;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(578, 116);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(195, 16);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "Nombre del empremdimiento";
+            // 
+            // t_mensaje
+            // 
+            this.t_mensaje.AutoSize = true;
+            this.t_mensaje.Location = new System.Drawing.Point(682, 566);
+            this.t_mensaje.Name = "t_mensaje";
+            this.t_mensaje.Size = new System.Drawing.Size(0, 13);
+            this.t_mensaje.TabIndex = 57;
+            // 
             // AgregarProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 737);
+            this.Controls.Add(this.t_mensaje);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.btn_nombreEmpr);
             this.Controls.Add(this.p_disponible);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox2);
@@ -442,5 +477,8 @@ namespace Interfaz_Agregar_Usuarios
         private System.Windows.Forms.OpenFileDialog abrir_imagen;
         private System.Windows.Forms.CheckBox p_disponible;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox btn_nombreEmpr;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label t_mensaje;
     }
 }

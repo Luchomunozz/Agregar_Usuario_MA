@@ -8,15 +8,17 @@ namespace Interfaz_Agregar_Usuarios
 {
     public class Productos
     {
+        public string nombreEmprendimiento { set; get; }
         public string nombre { set; get; }
-        public int precio { set; get; }
+        public decimal precio { set; get; }
         public string descripcion { set; get; }
         public int cantidad { set; get; }
         public string img_producto { set; get; }
         public bool estado { set; get; }
 
-        public void AgregarProducto(string _nombre, int _precio, string _descripcion, int _cantidad, bool _esatdo)
+        public void AgregarProducto(string _nombreEmpr, string _nombre, decimal _precio, string _descripcion, int _cantidad, bool _esatdo)
         {
+            nombreEmprendimiento = _nombreEmpr;
             nombre = _nombre;
             precio = _precio;
             descripcion = _descripcion;

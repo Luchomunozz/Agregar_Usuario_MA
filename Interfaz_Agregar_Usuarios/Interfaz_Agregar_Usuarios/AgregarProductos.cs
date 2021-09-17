@@ -31,10 +31,20 @@ namespace Interfaz_Agregar_Usuarios
             {
                 disponible = false;
             }
-            productos.AgregarProducto(btn_nombre.Text, Convert.ToInt32(btn_precio.Text), btn_descripcion.Text, Convert.ToInt32(cantidad.Value), disponible);
 
-            CGlobal.productos.Add(productos);
+            if (btn_nombreEmpr.Text == "" || btn_nombre.Text == "" || btn_precio.Text == "" || btn_descripcion.Text == "" || cantidad.Value == 0)
+            {
+                t_mensaje.Text = "Campos o datos incorrectos";
+            }
+            else
+            {
+                productos.AgregarProducto(btn_nombreEmpr.Text, btn_nombre.Text, Convert.ToDecimal(btn_precio.Text), btn_descripcion.Text, Convert.ToInt32(cantidad.Value), disponible);
 
+                CGlobal.productos.Add(productos);
+                t_mensaje.Text = "Producto registado exitosamente";
+            }
+       
+            btn_nombreEmpr.Clear();
             btn_nombre.Clear();
             btn_precio.Clear();
             btn_descripcion.Clear();
@@ -48,7 +58,7 @@ namespace Interfaz_Agregar_Usuarios
                 if (abrir_imagen.ShowDialog() == DialogResult.OK)
                 {
                     string imagen = abrir_imagen.FileName;
-                    img_producto.Image = Image.FromFile(imagen);
+                    img_producto.BackgroundImage = Image.FromFile(imagen);
                     productos.AgregarImagen(imagen);
                 }
             }
