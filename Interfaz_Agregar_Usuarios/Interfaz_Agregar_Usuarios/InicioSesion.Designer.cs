@@ -145,6 +145,7 @@ namespace Interfaz_Agregar_Usuarios
             this.linkLabel4.TabIndex = 8;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "¡Registrate!";
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
             // dataGridView1
             // 

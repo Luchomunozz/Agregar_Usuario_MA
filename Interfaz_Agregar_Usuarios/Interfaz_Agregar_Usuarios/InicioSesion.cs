@@ -33,5 +33,12 @@ namespace Interfaz_Agregar_Usuarios
                 lbl_error.Text = "Error, correo o contraseña invalidos";
             }
         }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form Registro = new Registro();
+            Hide();
+            Registro.Show();
+        }
     }
 }

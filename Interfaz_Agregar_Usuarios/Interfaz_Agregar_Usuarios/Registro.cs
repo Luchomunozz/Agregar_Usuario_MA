@@ -41,5 +41,19 @@ namespace Interfaz_Agregar_Usuarios
                 lbl_error.Text = "Este usuario ya existe";
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form InicioSesion = new InicioSesion();
+            Hide();
+            InicioSesion.Show();
+        }
+
+        private void btn_registrarse_Click_1(object sender, EventArgs e)
+        {
+            Form InicioSesion = new InicioSesion();
+            Hide();
+            InicioSesion.Show();
+        }
     }
 }
