@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +19,7 @@ namespace Interfaz_Agregar_Usuarios
             InitializeComponent();
         }
 
-        private void btn_registrarse_Click(object sender, EventArgs e)
+        private void btn_registrarse_Click_1(object sender, EventArgs e)
         {
             string nombre = txt_nombre.Text;
             string apellido = txt_apellido.Text;
@@ -29,16 +29,20 @@ namespace Interfaz_Agregar_Usuarios
             string direccion = txt_direccion.Text;
             string celular = txt_celular.Text;
 
-            bool usuarioVal = usuario.registrarse(correo, contrasena, nombre, apellido, fecnac, direccion, celular);
-            if (usuarioVal == true)
+            int usuarioVal = usuario.registrarse(correo, contrasena, nombre, apellido, fecnac, direccion, celular);
+            if (usuarioVal == 1)
             {
-                Index nuevaPag = new Index();
-                nuevaPag.Show();
-                this.Close();
+                Form InicioSesion = new InicioSesion();
+                Hide();
+                InicioSesion.Show();
+            }
+            else if(usuarioVal==2)
+            {
+                lbl_error.Text = "Este usuario ya existe";
             }
             else
             {
-                lbl_error.Text = "Este usuario ya existe";
+                lbl_error.Text = "Rellene todos los campos para continuar";
             }
         }
     }
