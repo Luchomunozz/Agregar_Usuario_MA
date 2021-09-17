@@ -12,6 +12,7 @@ namespace Interfaz_Agregar_Usuarios
 {
     public partial class Index : Form
     {
+        Productos producto = new Productos();
         public Index()
         {
             InitializeComponent();
@@ -55,6 +56,25 @@ namespace Interfaz_Agregar_Usuarios
             Form InicioSesion = new InicioSesion();
             Hide();
             InicioSesion.Show();
+        }
+
+        private void tablaProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 6)
+            {
+                producto.nombre = Convert.ToString(tablaProductos.CurrentRow.Cells[0].Value);
+                producto.nombreEmprendimiento = Convert.ToString(tablaProductos.CurrentRow.Cells[1].Value);
+                producto.descripcion = Convert.ToString(tablaProductos.CurrentRow.Cells[2].Value);
+                producto.precio = Convert.ToDecimal(tablaProductos.CurrentRow.Cells[3].Value);
+                producto.estado = Convert.ToBoolean(tablaProductos.CurrentRow.Cells[4].Value);
+                producto.cantidad = Convert.ToInt32(tablaProductos.CurrentRow.Cells[5].Value);
+                producto.img_producto = Convert.ToString(tablaProductos.CurrentRow.Cells[7].Value);
+
+                this.Hide();
+                Vista seg = new Vista();
+                seg.ShowDialog();
+                this.Show();
+            }
         }
     }
 }

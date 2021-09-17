@@ -576,6 +576,7 @@ namespace Interfaz_Agregar_Usuarios
             this.tablaProductos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.tablaProductos.Size = new System.Drawing.Size(1084, 345);
             this.tablaProductos.TabIndex = 74;
+            this.tablaProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaProductos_CellContentClick);
             // 
             // Column1
             // 
