@@ -25,8 +25,21 @@ namespace Interfaz_Agregar_Usuarios
             nomEmprendimiento.Text = producto.nombreEmprendimiento;
             precio.Text = "$" + Convert.ToString(producto.precio);
             descripcion.Text = producto.descripcion;
-            estado.Text = Convert.ToString(producto.estado);
+            if (Convert.ToBoolean(producto.estado) == true)
+            {
+                estado.Text = "Disponible";
+            }
+            else
+            {
+                estado.Text = "Agotado";
+            }
             imgProducto.Image = Image.FromFile(producto.img_producto);
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            AgregarProductos ag_productos = new AgregarProductos();
+            ag_productos.Show();
         }
     }
 }
