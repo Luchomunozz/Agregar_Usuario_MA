@@ -49,6 +49,10 @@ namespace Interfaz_Agregar_Usuarios
             btn_precio.Clear();
             btn_descripcion.Clear();
             cantidad.Value = 1;
+
+            Form Index = new Index();
+            Hide();
+            Index.Show();
         }
 
         private void agregar_img_Click(object sender, EventArgs e)
@@ -79,6 +83,20 @@ namespace Interfaz_Agregar_Usuarios
         {
             this.Show();
            
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Form AgregarProductos = new AgregarProductos();
+            Hide();
+            AgregarProductos.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Form InicioSesion = new InicioSesion();
+            Hide();
+            InicioSesion.Show();
         }
     }
 }

@@ -30,5 +30,19 @@ namespace Interfaz_Agregar_Usuarios
             AgregarProductos ag_productos = new AgregarProductos();
             ag_productos.Show();
         }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            Form Index = new Index();
+            Hide();
+            Index.Show();
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            Form InicioSesion = new InicioSesion();
+            Hide();
+            InicioSesion.Show();
+        }
     }
 }
