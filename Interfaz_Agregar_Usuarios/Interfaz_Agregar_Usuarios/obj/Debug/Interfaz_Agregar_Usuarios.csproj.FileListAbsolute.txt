@@ -66,3 +66,17 @@ C:\Users\Camilo\Desktop\b - copia - copia\Agregar_Usuario_MA\Interfaz_Agregar_Us
 C:\Users\Camilo\Desktop\b - copia - copia\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.CoreCompileInputs.cache
 C:\Users\Camilo\Desktop\b - copia - copia\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
 C:\Users\Camilo\Desktop\b - copia - copia\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe.config
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.pdb
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.AssemblyReference.cache
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.AgregarProductos.resources
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Index.resources
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.InicioSesion.resources
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Properties.Resources.resources
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Registro.resources
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Vista.resources
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.GenerateResource.cache
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.CoreCompileInputs.cache
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
+C:\Users\mariana\OneDrive\Escritorio\moduloMutualAid\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb

@@ -30,5 +30,6 @@ namespace Interfaz_Agregar_Usuarios
         {
             img_producto = _img_producto;
         }
+
     }
 }

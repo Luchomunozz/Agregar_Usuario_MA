@@ -55,7 +55,7 @@ namespace Interfaz_Agregar_Usuarios
             Index.Show();
         }
 
-        private void agregar_img_Click(object sender, EventArgs e)
+        private void AgImagen_Click(object sender, EventArgs e)
         {
             try
             {
@@ -98,5 +98,7 @@ namespace Interfaz_Agregar_Usuarios
             Hide();
             InicioSesion.Show();
         }
+
+        
     }
 }
