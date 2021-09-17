@@ -49,3 +49,6 @@ C:\Users\SENA\Source\Repos\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz
 C:\Users\SENA\Source\Repos\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
 C:\Users\SENA\Source\Repos\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb
 >>>>>>> main
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.AgregarProductos.resources
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Registro.resources
+D:\Nueva carpeta\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Vista.resources
