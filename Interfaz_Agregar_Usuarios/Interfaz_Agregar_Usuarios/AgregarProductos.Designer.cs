@@ -30,7 +30,6 @@ namespace Interfaz_Agregar_Usuarios
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgregarProductos));
-            this.agregar_img = new System.Windows.Forms.Label();
             this.btn_agregar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -61,6 +60,7 @@ namespace Interfaz_Agregar_Usuarios
             this.btn_nombreEmpr = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.t_mensaje = new System.Windows.Forms.Label();
+            this.AgImagen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.cantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_producto)).BeginInit();
             this.panel1.SuspendLayout();
@@ -75,18 +75,6 @@ namespace Interfaz_Agregar_Usuarios
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // agregar_img
-            // 
-            this.agregar_img.AutoSize = true;
-            this.agregar_img.BackColor = System.Drawing.Color.Transparent;
-            this.agregar_img.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agregar_img.Location = new System.Drawing.Point(148, 328);
-            this.agregar_img.Name = "agregar_img";
-            this.agregar_img.Size = new System.Drawing.Size(239, 16);
-            this.agregar_img.TabIndex = 46;
-            this.agregar_img.Text = "+ Agregar una imagen del producto ";
-            this.agregar_img.Click += new System.EventHandler(this.agregar_img_Click);
             // 
             // btn_agregar
             // 
@@ -184,7 +172,7 @@ namespace Interfaz_Agregar_Usuarios
             // 
             this.img_producto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.img_producto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.img_producto.Location = new System.Drawing.Point(96, 184);
+            this.img_producto.Location = new System.Drawing.Point(105, 149);
             this.img_producto.Name = "img_producto";
             this.img_producto.Size = new System.Drawing.Size(347, 301);
             this.img_producto.TabIndex = 36;
@@ -402,11 +390,28 @@ namespace Interfaz_Agregar_Usuarios
             this.t_mensaje.Size = new System.Drawing.Size(0, 13);
             this.t_mensaje.TabIndex = 57;
             // 
+            // AgImagen
+            // 
+            this.AgImagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.AgImagen.FlatAppearance.BorderSize = 0;
+            this.AgImagen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AgImagen.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgImagen.ForeColor = System.Drawing.Color.White;
+            this.AgImagen.Location = new System.Drawing.Point(142, 457);
+            this.AgImagen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.AgImagen.Name = "AgImagen";
+            this.AgImagen.Size = new System.Drawing.Size(278, 63);
+            this.AgImagen.TabIndex = 64;
+            this.AgImagen.Text = "Agregar una imagen del producto";
+            this.AgImagen.UseVisualStyleBackColor = false;
+            this.AgImagen.Click += new System.EventHandler(this.AgImagen_Click);
+            // 
             // AgregarProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 737);
+            this.Controls.Add(this.AgImagen);
             this.Controls.Add(this.t_mensaje);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btn_nombreEmpr);
@@ -414,7 +419,6 @@ namespace Interfaz_Agregar_Usuarios
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.agregar_img);
             this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -450,8 +454,6 @@ namespace Interfaz_Agregar_Usuarios
         }
 
         #endregion
-
-        private System.Windows.Forms.Label agregar_img;
         private System.Windows.Forms.Button btn_agregar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -482,5 +484,6 @@ namespace Interfaz_Agregar_Usuarios
         private System.Windows.Forms.TextBox btn_nombreEmpr;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label t_mensaje;
+        private System.Windows.Forms.Button AgImagen;
     }
 }
