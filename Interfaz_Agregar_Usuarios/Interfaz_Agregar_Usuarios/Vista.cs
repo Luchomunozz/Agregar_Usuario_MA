@@ -12,8 +12,10 @@ namespace Interfaz_Agregar_Usuarios
 {
     public partial class Vista : Form
     {
-        public Vista()
+        Productos producto;
+        public Vista(Productos producto)
         {
+            this.producto = producto;
             InitializeComponent();
         }
     }
