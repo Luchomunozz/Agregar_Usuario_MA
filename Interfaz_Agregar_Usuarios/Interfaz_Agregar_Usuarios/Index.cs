@@ -26,12 +26,21 @@ namespace Interfaz_Agregar_Usuarios
 
             foreach (Productos product in CGlobal.productos)
             {
+                
                 int n = tablaProductos.Rows.Add();
                 tablaProductos.Rows[n].Cells[0].Value = product.nombre;
                 tablaProductos.Rows[n].Cells[1].Value = product.nombreEmprendimiento;
                 tablaProductos.Rows[n].Cells[2].Value = product.descripcion;
                 tablaProductos.Rows[n].Cells[3].Value = product.precio;
-                tablaProductos.Rows[n].Cells[4].Value = product.estado;
+                if (product.estado==true)
+                {
+                    
+                    tablaProductos.Rows[n].Cells[4].Value = "Disponible";
+                }
+                else
+                {
+                    tablaProductos.Rows[n].Cells[4].Value = "Agotado";
+                }
                 tablaProductos.Rows[n].Cells[5].Value = product.cantidad;
                 tablaProductos.Rows[n].Cells[7].Value = product.img_producto;
             }
