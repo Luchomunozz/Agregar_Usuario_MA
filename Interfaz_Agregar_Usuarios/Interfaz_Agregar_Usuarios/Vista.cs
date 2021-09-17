@@ -18,5 +18,15 @@ namespace Interfaz_Agregar_Usuarios
             this.producto = producto;
             InitializeComponent();
         }
+
+        private void Vista_Load(object sender, EventArgs e)
+        {
+            nomProducto.Text = producto.nombre;
+            nomEmprendimiento.Text = producto.nombreEmprendimiento;
+            precio.Text = "$" + Convert.ToString(producto.precio);
+            descripcion.Text = producto.descripcion;
+            estado.Text = Convert.ToString(producto.estado);
+            imgProducto.Image = Image.FromFile(producto.img_producto);
+        }
     }
 }

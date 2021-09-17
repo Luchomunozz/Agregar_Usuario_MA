@@ -71,7 +71,7 @@ namespace Interfaz_Agregar_Usuarios
                 producto.img_producto = Convert.ToString(tablaProductos.CurrentRow.Cells[7].Value);
 
                 this.Hide();
-                Vista seg = new Vista();
+                Vista seg = new Vista(producto);
                 seg.ShowDialog();
                 this.Show();
             }
