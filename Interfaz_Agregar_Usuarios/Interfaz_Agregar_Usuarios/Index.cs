@@ -31,8 +31,9 @@ namespace Interfaz_Agregar_Usuarios
                 tablaProductos.Rows[n].Cells[0].Value = product.nombre;
                 tablaProductos.Rows[n].Cells[1].Value = product.nombreEmprendimiento;
                 tablaProductos.Rows[n].Cells[2].Value = product.descripcion;
-                tablaProductos.Rows[n].Cells[3].Value = product.precio;
-                if (product.estado==true)
+                decimal val = Convert.ToDecimal(product.precio);
+                tablaProductos.Rows[n].Cells[3].Value = val.ToString("N2");
+                if (product.estado==true)                                                                                  
                 {
                     
                     tablaProductos.Rows[n].Cells[4].Value = "Disponible";

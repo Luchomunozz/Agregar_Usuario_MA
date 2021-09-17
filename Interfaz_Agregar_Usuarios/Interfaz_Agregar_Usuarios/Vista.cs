@@ -23,7 +23,8 @@ namespace Interfaz_Agregar_Usuarios
         {
             nomProducto.Text = producto.nombre;
             nomEmprendimiento.Text = producto.nombreEmprendimiento;
-            precio.Text = "$" + Convert.ToString(producto.precio);
+            decimal val = Convert.ToDecimal(producto.precio);
+            precio.Text = "$" + val.ToString("N2");
             descripcion.Text = producto.descripcion;
             if (Convert.ToBoolean(producto.estado) == true)
             {
