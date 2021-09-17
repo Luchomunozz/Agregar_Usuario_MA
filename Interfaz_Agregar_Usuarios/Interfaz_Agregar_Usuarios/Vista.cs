@@ -18,15 +18,16 @@ namespace Interfaz_Agregar_Usuarios
             this.producto = producto;
             InitializeComponent();
         }
-
+        
         private void Vista_Load(object sender, EventArgs e)
         {
+            nomProducto.Text = producto.nombre;
             nomProducto.Text = producto.nombre;
             nomEmprendimiento.Text = producto.nombreEmprendimiento;
             decimal val = Convert.ToDecimal(producto.precio);
             precio.Text = "$" + val.ToString("N2");
             descripcion.Text = producto.descripcion;
-            if (Convert.ToBoolean(producto.estado) == true)
+            if (producto.estado == true)
             {
                 estado.Text = "Disponible";
             }

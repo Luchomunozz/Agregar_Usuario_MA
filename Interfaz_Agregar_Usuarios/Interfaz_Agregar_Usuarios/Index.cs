@@ -33,9 +33,8 @@ namespace Interfaz_Agregar_Usuarios
                 tablaProductos.Rows[n].Cells[2].Value = product.descripcion;
                 decimal val = Convert.ToDecimal(product.precio);
                 tablaProductos.Rows[n].Cells[3].Value = val.ToString("N2");
-                if (product.estado==true)                                                                                  
+                if (product.estado==true)
                 {
-                    
                     tablaProductos.Rows[n].Cells[4].Value = "Disponible";
                 }
                 else
@@ -76,14 +75,14 @@ namespace Interfaz_Agregar_Usuarios
                 producto.nombreEmprendimiento = Convert.ToString(tablaProductos.CurrentRow.Cells[1].Value);
                 producto.descripcion = Convert.ToString(tablaProductos.CurrentRow.Cells[2].Value);
                 producto.precio = Convert.ToDecimal(tablaProductos.CurrentRow.Cells[3].Value);
-                if (producto.estado == true)
+                if (Convert.ToString(tablaProductos.CurrentRow.Cells[4].Value) == "Disponible")
                 {
-
-                    tablaProductos.CurrentRow.Cells[4].Value = "Disponible";
+                    producto.estado = true;
+                    
                 }
                 else
                 {
-                    tablaProductos.CurrentRow.Cells[4].Value = "Agotado";
+                    producto.estado = false;
                 }
                 producto.cantidad = Convert.ToInt32(tablaProductos.CurrentRow.Cells[5].Value);
                 producto.img_producto = Convert.ToString(tablaProductos.CurrentRow.Cells[7].Value);
