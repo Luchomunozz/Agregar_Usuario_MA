@@ -390,9 +390,9 @@ namespace Interfaz_Agregar_Usuarios
             this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(578, 116);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(195, 16);
+            this.label7.Size = new System.Drawing.Size(191, 16);
             this.label7.TabIndex = 56;
-            this.label7.Text = "Nombre del empremdimiento";
+            this.label7.Text = "Nombre del emprendimiento";
             // 
             // t_mensaje
             // 

@@ -78,7 +78,7 @@ namespace Interfaz_Agregar_Usuarios
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewImageColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -548,6 +548,8 @@ namespace Interfaz_Agregar_Usuarios
             // 
             // tablaProductos
             // 
+            this.tablaProductos.AllowUserToAddRows = false;
+            this.tablaProductos.AllowUserToDeleteRows = false;
             this.tablaProductos.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.tablaProductos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -573,6 +575,7 @@ namespace Interfaz_Agregar_Usuarios
             this.tablaProductos.GridColor = System.Drawing.Color.Black;
             this.tablaProductos.Location = new System.Drawing.Point(132, 172);
             this.tablaProductos.Name = "tablaProductos";
+            this.tablaProductos.ReadOnly = true;
             this.tablaProductos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.tablaProductos.Size = new System.Drawing.Size(1084, 345);
             this.tablaProductos.TabIndex = 74;
@@ -582,47 +585,57 @@ namespace Interfaz_Agregar_Usuarios
             // 
             this.Column1.HeaderText = "Producto";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             this.Column1.Width = 170;
             // 
             // Column5
             // 
             this.Column5.HeaderText = "Emprendimiento";
             this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
             this.Column5.Width = 170;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Descripción";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             this.Column2.Width = 325;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Precio";
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             // 
             // Column4
             // 
             this.Column4.HeaderText = "Estado";
             this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.Column4.Width = 125;
             // 
             // Column6
             // 
             this.Column6.HeaderText = "Cantidad";
             this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
             // 
             // Column7
             // 
             this.Column7.HeaderText = "Ver";
             this.Column7.Image = ((System.Drawing.Image)(resources.GetObject("Column7.Image")));
             this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
             this.Column7.Width = 50;
             // 
             // Column8
             // 
             this.Column8.HeaderText = "Imagen";
             this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
             this.Column8.Visible = false;
             this.Column8.Width = 10;
             // 
@@ -732,7 +745,7 @@ namespace Interfaz_Agregar_Usuarios
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewImageColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;

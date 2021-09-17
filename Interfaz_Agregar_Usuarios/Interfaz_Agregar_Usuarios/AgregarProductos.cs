@@ -98,5 +98,7 @@ namespace Interfaz_Agregar_Usuarios
             Hide();
             InicioSesion.Show();
         }
+
+        
     }
 }
