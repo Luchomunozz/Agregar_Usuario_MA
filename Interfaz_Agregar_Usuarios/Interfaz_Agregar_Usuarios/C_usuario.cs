@@ -17,7 +17,7 @@ namespace Interfaz_Agregar_Usuarios
         public string celular { set; get; }
 
 
-        public bool iniciarSesion(string correo, string contraseña)
+        public bool iniciarSesion(string correo, string contrasena)
         {
             bool verificacion = false;
             int posCorreo = CGlobal.usuarios.FindIndex(x => x.correo == correo);
@@ -35,18 +35,25 @@ namespace Interfaz_Agregar_Usuarios
             return verificacion;
         }
 
-        public bool registrarse(string correo, string contrasena, string nombre, string apellido, string fecnac, string direccion, string celular)
+        public int registrarse(string correo, string contrasena, string nombre, string apellido, string fecnac, string direccion, string celular)
         {
-            bool existe = false;
+            int existe = 0;
+
+            if (correo == "" || contrasena == "" || nombre == "" || apellido == "" || fecnac == "" || direccion == "" || celular == "")
+            {
+                existe = 0;
+                return existe;
+            }
+
             int pos = CGlobal.usuarios.FindIndex(x => x.correo == correo);
             if (pos == -1)
             {
                 CGlobal.usuarios.Add(new C_usuario { nombre = nombre, apellido = apellido, correo =correo , fecnac = fecnac, direccion = direccion, celular = celular, contrasena= contrasena});
-                existe = true;
+                existe = 1;
             }
             else
             {
-                existe = false;
+                existe = 2;
             }
 
             return existe;
