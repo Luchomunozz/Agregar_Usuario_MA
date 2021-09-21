@@ -269,19 +269,19 @@ namespace Interfaz_Agregar_Usuarios
             // 
             // txt_contrasena
             // 
-            this.txt_contrasena.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_contrasena.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_contrasena.Location = new System.Drawing.Point(399, 409);
-            this.txt_contrasena.Multiline = true;
             this.txt_contrasena.Name = "txt_contrasena";
-            this.txt_contrasena.Size = new System.Drawing.Size(202, 33);
+            this.txt_contrasena.Size = new System.Drawing.Size(202, 32);
             this.txt_contrasena.TabIndex = 34;
+            this.txt_contrasena.UseSystemPasswordChar = true;
             // 
             // btn_registrarse
             // 
             this.btn_registrarse.BackColor = System.Drawing.Color.Firebrick;
             this.btn_registrarse.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_registrarse.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_registrarse.Location = new System.Drawing.Point(411, 490);
+            this.btn_registrarse.Location = new System.Drawing.Point(399, 513);
             this.btn_registrarse.Name = "btn_registrarse";
             this.btn_registrarse.Size = new System.Drawing.Size(180, 42);
             this.btn_registrarse.TabIndex = 33;
@@ -301,13 +301,13 @@ namespace Interfaz_Agregar_Usuarios
             // 
             // lbl_error
             // 
-            this.lbl_error.AutoSize = true;
-            this.lbl_error.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_error.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_error.ForeColor = System.Drawing.Color.Black;
-            this.lbl_error.Location = new System.Drawing.Point(436, 453);
+            this.lbl_error.Location = new System.Drawing.Point(321, 460);
             this.lbl_error.Name = "lbl_error";
-            this.lbl_error.Size = new System.Drawing.Size(0, 41);
+            this.lbl_error.Size = new System.Drawing.Size(365, 35);
             this.lbl_error.TabIndex = 38;
+            this.lbl_error.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Registro
             // 
