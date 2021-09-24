@@ -13,10 +13,12 @@ namespace Interfaz_Agregar_Usuarios
     public partial class AgregarProductos : Form
     {
         Productos productos = new Productos();
+        string Correo;
 
-        public AgregarProductos()
+        public AgregarProductos(string correo)
         {
             InitializeComponent();
+            Correo = correo;
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
@@ -50,7 +52,7 @@ namespace Interfaz_Agregar_Usuarios
             btn_descripcion.Clear();
             cantidad.Value = 1;
 
-            Form Index = new Index();
+            Form Index = new Index(Correo);
             Hide();
             Index.Show();
         }
@@ -87,7 +89,7 @@ namespace Interfaz_Agregar_Usuarios
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Form AgregarProductos = new AgregarProductos();
+            Form AgregarProductos = new AgregarProductos(Correo);
             Hide();
             AgregarProductos.Show();
         }
@@ -99,6 +101,9 @@ namespace Interfaz_Agregar_Usuarios
             InicioSesion.Show();
         }
 
-        
+        private void AgregarProductos_Load(object sender, EventArgs e)
+        {
+            button1.Text = Correo;
+        }
     }
 }

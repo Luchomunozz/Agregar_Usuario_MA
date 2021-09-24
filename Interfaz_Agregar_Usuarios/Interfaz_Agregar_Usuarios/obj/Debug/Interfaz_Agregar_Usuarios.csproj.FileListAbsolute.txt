@@ -12,3 +12,17 @@ C:\Users\SENA\Desktop\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agre
 C:\Users\SENA\Desktop\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.CoreCompileInputs.cache
 C:\Users\SENA\Desktop\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
 C:\Users\SENA\Desktop\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.AssemblyReference.cache
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.AgregarProductos.resources
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Index.resources
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.InicioSesion.resources
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Properties.Resources.resources
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Registro.resources
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.Vista.resources
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.GenerateResource.cache
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.csproj.CoreCompileInputs.cache
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.exe
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\obj\Debug\Interfaz_Agregar_Usuarios.pdb
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe.config
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.exe
+C:\Users\hp ryzen 5\Desktop\Sena\Lógica de program\proyecto trimestre 3\Agregar_Usuario_MA\Interfaz_Agregar_Usuarios\Interfaz_Agregar_Usuarios\bin\Debug\Interfaz_Agregar_Usuarios.pdb

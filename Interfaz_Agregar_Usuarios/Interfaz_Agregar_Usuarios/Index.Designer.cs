@@ -520,7 +520,6 @@ namespace Interfaz_Agregar_Usuarios
             this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(143, 55);
             this.button1.TabIndex = 71;
-            this.button1.Text = "Marlon";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = false;
             // 

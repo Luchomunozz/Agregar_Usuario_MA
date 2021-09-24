@@ -13,14 +13,18 @@ namespace Interfaz_Agregar_Usuarios
     public partial class Vista : Form
     {
         Productos producto;
-        public Vista(Productos producto)
+        string Correo;
+        public Vista(Productos producto, string correo)
         {
+            Correo = correo;
             this.producto = producto;
             InitializeComponent();
         }
         
         private void Vista_Load(object sender, EventArgs e)
         {
+            button1.Text = Correo;
+
             nomProducto.Text = producto.nombre;
             nomProducto.Text = producto.nombre;
             nomEmprendimiento.Text = producto.nombreEmprendimiento;
@@ -40,7 +44,7 @@ namespace Interfaz_Agregar_Usuarios
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
-            AgregarProductos ag_productos = new AgregarProductos();
+            AgregarProductos ag_productos = new AgregarProductos(Correo);
             ag_productos.Show();
         }
     }

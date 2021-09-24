@@ -13,13 +13,18 @@ namespace Interfaz_Agregar_Usuarios
     public partial class Index : Form
     {
         Productos producto = new Productos();
-        public Index()
+        string Correo;
+        public Index(string correo)
         {
             InitializeComponent();
+            Correo = correo;
         }
 
         private void Index_Load(object sender, EventArgs e)
         {
+
+            button1.Text = Correo;
+
             this.tablaProductos.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
             
             tablaProductos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
@@ -49,13 +54,13 @@ namespace Interfaz_Agregar_Usuarios
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
-            AgregarProductos ag_productos = new AgregarProductos();
+            AgregarProductos ag_productos = new AgregarProductos(Correo);
             ag_productos.Show();
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-            Form Index = new Index();
+            Form Index = new Index(Correo);
             Hide();
             Index.Show();
         }
@@ -88,10 +93,11 @@ namespace Interfaz_Agregar_Usuarios
                 producto.img_producto = Convert.ToString(tablaProductos.CurrentRow.Cells[7].Value);
 
                 this.Hide();
-                Vista seg = new Vista(producto);
+                Vista seg = new Vista(producto, Correo);
                 seg.ShowDialog();
                 this.Show();
             }
         }
+
     }
 }

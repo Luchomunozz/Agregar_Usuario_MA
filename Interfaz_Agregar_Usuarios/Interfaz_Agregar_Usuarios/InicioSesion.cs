@@ -25,7 +25,7 @@ namespace Interfaz_Agregar_Usuarios
             string contrasena = txt_contrasena.Text;
             bool ingresoVal = nuevoUsuario.iniciarSesion(correo, contrasena);
             if( ingresoVal == true){
-                Index nuevaPag = new Index();
+                Index nuevaPag = new Index(correo);
                 nuevaPag.Show();
             }
             else
