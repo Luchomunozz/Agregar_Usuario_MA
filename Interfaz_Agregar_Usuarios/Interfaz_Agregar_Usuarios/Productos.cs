@@ -16,7 +16,7 @@ namespace Interfaz_Agregar_Usuarios
         public string img_producto { set; get; }
         public bool estado { set; get; }
 
-        public void AgregarProducto(string _nombreEmpr, string _nombre, decimal _precio, string _descripcion, int _cantidad, bool _esatdo)
+        public void AgregarProducto(string _nombreEmpr, string _nombre, decimal _precio, string _descripcion, int _cantidad, bool _esatdo, string _abrir_imagen)
         {
             nombreEmprendimiento = _nombreEmpr;
             nombre = _nombre;
@@ -24,6 +24,7 @@ namespace Interfaz_Agregar_Usuarios
             descripcion = _descripcion;
             cantidad = _cantidad;
             estado = _esatdo;
+            img_producto = _abrir_imagen;
         }
 
         public void AgregarImagen(string _img_producto)

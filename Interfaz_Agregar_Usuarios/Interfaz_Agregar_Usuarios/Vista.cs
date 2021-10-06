@@ -23,7 +23,7 @@ namespace Interfaz_Agregar_Usuarios
         
         private void Vista_Load(object sender, EventArgs e)
         {
-            button1.Text = Correo;
+            button2.Text = Correo;
 
             nomProducto.Text = producto.nombre;
             nomProducto.Text = producto.nombre;

@@ -34,16 +34,20 @@ namespace Interfaz_Agregar_Usuarios
                 disponible = false;
             }
 
-            if (btn_nombreEmpr.Text == "" || btn_nombre.Text == "" || btn_precio.Text == "" || btn_descripcion.Text == "" || cantidad.Value == 0)
+            if (btn_nombreEmpr.Text == "" || btn_nombre.Text == "" || btn_precio.Text == "" || btn_descripcion.Text == "" || cantidad.Value == 0 || abrir_imagen.FileName=="")
             {
                 t_mensaje.Text = "Campos o datos incorrectos";
             }
             else
             {
-                productos.AgregarProducto(btn_nombreEmpr.Text, btn_nombre.Text, Convert.ToDecimal(btn_precio.Text), btn_descripcion.Text, Convert.ToInt32(cantidad.Value), disponible);
+                productos.AgregarProducto(btn_nombreEmpr.Text, btn_nombre.Text, Convert.ToDecimal(btn_precio.Text), btn_descripcion.Text, Convert.ToInt32(cantidad.Value), disponible, abrir_imagen.FileName);
 
                 CGlobal.productos.Add(productos);
                 t_mensaje.Text = "Producto registado exitosamente";
+
+                Form Index = new Index(Correo);
+                Hide();
+                Index.Show();
             }
        
             btn_nombreEmpr.Clear();
@@ -52,9 +56,7 @@ namespace Interfaz_Agregar_Usuarios
             btn_descripcion.Clear();
             cantidad.Value = 1;
 
-            Form Index = new Index(Correo);
-            Hide();
-            Index.Show();
+            
         }
 
         private void AgImagen_Click(object sender, EventArgs e)

@@ -12,7 +12,7 @@ namespace Interfaz_Agregar_Usuarios
         public string apellido { set; get; }
         public string correo { set; get; }
         public string contrasena { set; get; }
-        public string fecnac { set; get; } 
+        public string fecnac { set; get; }
         public string direccion { set; get; }
         public string celular { set; get; }
 
@@ -23,7 +23,7 @@ namespace Interfaz_Agregar_Usuarios
             int posCorreo = CGlobal.usuarios.FindIndex(x => x.correo == correo);
             if (posCorreo != -1)
             {
-                if (CGlobal.usuarios[posCorreo].contrasena == contrasena )
+                if (CGlobal.usuarios[posCorreo].contrasena == contrasena)
                 {
                     verificacion = true;
                 }
@@ -48,7 +48,7 @@ namespace Interfaz_Agregar_Usuarios
             int pos = CGlobal.usuarios.FindIndex(x => x.correo == correo);
             if (pos == -1)
             {
-                CGlobal.usuarios.Add(new C_usuario { nombre = nombre, apellido = apellido, correo =correo , fecnac = fecnac, direccion = direccion, celular = celular, contrasena= contrasena});
+                CGlobal.usuarios.Add(new C_usuario { nombre = nombre, apellido = apellido, correo = correo, fecnac = fecnac, direccion = direccion, celular = celular, contrasena = contrasena });
                 existe = 1;
             }
             else
@@ -57,6 +57,13 @@ namespace Interfaz_Agregar_Usuarios
             }
 
             return existe;
+        }
+
+        public string extraerInfoUsuario(string correo, string contrasena)
+        {
+            int posCorreo = CGlobal.usuarios.FindIndex(x => x.correo == correo);
+            string nombreUsuario = CGlobal.usuarios[posCorreo].nombre;
+            return nombreUsuario;
         }
     }
 }
